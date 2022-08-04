@@ -107,8 +107,6 @@ local function TakeQuest(QuestNpcName)
     end
 end
 
-NotificationLibrary.CustomNotification("test", "Это предварительный тест. Это лучшее, что я создал для откровения.", 9e9)
-
 while true do task.wait()
     for i, NpcName in pairs(NpcNames) do
         local SpawnPart = workspace:WaitForChild("Spawns"):WaitForChild(NpcName, 5)
