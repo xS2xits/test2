@@ -10,7 +10,8 @@ coroutine.wrap(function()
     end
 end)()
 
-task.wait()
+task.wait(5)
+
 _G.AutoRejoin = true
 
 local QuestModule = require(game:GetService("ReplicatedStorage").Modules.Quests)
@@ -47,12 +48,12 @@ local function RemoteAttack(Number, AttackPosition)
 end
 
 if Player.Character:FindFirstChild("Form") and (Player.Character.Form.Value == "") then
-    RemoteAttack(0)
+    RemoteAttack(6)
 end
 
 Player.CharacterAdded:Connect(function()
-    task.wait()
-    RemoteAttack()
+    task.wait(2)
+    RemoteAttack(6)
 end)
 local function KillNpc(Npc)
     local EHum = Npc:WaitForChild("Humanoid")
@@ -87,7 +88,7 @@ local function ServerHop()
                 NotificationLibrary.CustomNotification("Error", "Couldn't find any server to join")
             end
         end)
-        task.wait()
+        task.wait(1)
     end
 end
 
