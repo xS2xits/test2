@@ -10,7 +10,7 @@ coroutine.wrap(function()
     end
 end)()
 
-task.wait(5)
+task.wait(0)
 
 _G.AutoRejoin = true
 
@@ -52,7 +52,7 @@ if Player.Character:FindFirstChild("Form") and (Player.Character.Form.Value == "
 end
 
 Player.CharacterAdded:Connect(function()
-    task.wait(2)
+    task.wait(0)
     RemoteAttack(6)
 end)
 local function KillNpc(Npc)
@@ -88,7 +88,7 @@ local function ServerHop()
                 NotificationLibrary.CustomNotification("Error", "Couldn't find any server to join")
             end
         end)
-        task.wait(1)
+        task.wait(0)
     end
 end
 
