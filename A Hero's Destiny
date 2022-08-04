@@ -3,6 +3,15 @@ if not game:IsLoaded() then
 end
 
 task.wait()
+_G.AutoSpin = true
+
+coroutine.wrap(function()
+    while _G.AutoSpin do task.wait()
+        game:GetService("ReplicatedStorage").RemoteFunction:InvokeServer()
+    end
+end)()
+
+task.wait()
 _G.AutoRejoin = true
 
 local QuestModule = require(game:GetService("ReplicatedStorage").Modules.Quests)
