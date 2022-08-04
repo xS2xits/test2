@@ -32,7 +32,7 @@ local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubuserconte
 local InputLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Suricato006/Scripts-Made-by-me/master/Libraries/InputFunctions%20Library.lua"))()
 
 if syn and _G.AutoRejoin then
-    syn.queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/xS2xits/test1/main/A%20Hero's%20Destiny"))
+    syn.queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/xS2xits/test2/main/A%20Hero's%20Destiny"))
 end
 
 local function RemoteAttack(Number, AttackPosition)
