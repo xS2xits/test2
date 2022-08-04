@@ -28,7 +28,6 @@ for i = 0, 2 do
 end
 
 local Player = game.Players.LocalPlayer
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Suricato006/Scripts-Made-by-me/master/Libraries/Notification%20Library%20Optimization.lua"))()
 local InputLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Suricato006/Scripts-Made-by-me/master/Libraries/InputFunctions%20Library.lua"))()
 
 if syn and _G.AutoRejoin then
@@ -106,7 +105,6 @@ local function TakeQuest(QuestNpcName)
         end
     end
 end
-
 while true do task.wait()
     for i, NpcName in pairs(NpcNames) do
         local SpawnPart = workspace:WaitForChild("Spawns"):WaitForChild(NpcName, 5)
