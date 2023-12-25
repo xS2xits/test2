@@ -294,9 +294,9 @@ Autofarm_Extras:Toggle("Kill Aura", function(t)
      end
  end)
 
--- Autofarm_Extras:Toggle("Hit Aura", function(t)
---     StartFarm = t
--- end)
+ Autofarm_Extras:Toggle("Hit Aura", function(t)
+     StartFarm = t
+ end)
 
 Autofarm_Extras:Toggle("Hit Aura", function(t)
     Remote_Aura = t
