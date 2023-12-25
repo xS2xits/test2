@@ -45,8 +45,8 @@ end
 
 local Neverlose_Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Neverlose-UI/main/Source.lua"))()
 local Win = Neverlose_Main:Window({
-    Title = "NEVERLOSE",
-    CFG = "Neverlose",
+    Title = "УраураИнамишакиАмуамайсакаонжеач",
+    CFG = "УраураИнамишакиАмуамайсакаонжеач",
     Key = Enum.KeyCode.RightControl,
     External = {
         KeySystem = false,
@@ -74,7 +74,6 @@ end
 local TabSection1 = Win:TSection("Misc")
 
 local Autofarm = TabSection1:Tab("Autofarm")
-local Credits = TabSection1:Tab("Credits")
 
 local Autofarm_sec = Autofarm:Section("Autofarm")
 local Autofarm_Extras = Autofarm:Section("Autofarm [Extra]")
@@ -84,11 +83,6 @@ local Autofarm_Infinite = Autofarm:Section("Autofarm [Infinite]")
 local Other = Autofarm:Section("Other")
 local Conf = Autofarm:Section("Config")
 
-local CreditSection = Credits:Section("Credits")
-
-CreditSection:Button("Dev: Mango64 (V3rmillion)", function()
-    setclipbaord("https://v3rmillion.net/member.php?action=profile&uid=2305905")
-end)
 
 local Is_Loaded = false
 
