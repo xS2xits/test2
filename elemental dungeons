@@ -111,50 +111,50 @@ local Get_ALC = Conf:Toggle("Auto Load Config", function(t)
     end
 end)
 
--- if game.PlaceId == 10515146389 then
---     local Load_Dungeon = TabSection1:Tab("Dungeon")
---     local Load_Dungeons = Autofarm:Section("Dungeons")
---     if not isfile("Neverlose/Auto_Load_Dungeon.txt") then
---         writefile("Neverlose/Auto_Load_Dungeon.txt",HttpService:JSONEncode({
---             ["Auto_Load"] = false,
---             ["Dungeon"] = nil,
---             ["Difficulty"] = nil,
---             ["Join"] = nil,
---             ["Normal"] = nil,
---         }))
---     end
---     local Auto_Load_DG = Load_Dungeons:Toggle("Auto Load Dungeon", function(t)
---         A_L_DG = t
---         local Allowed_L = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt'))
---         Allowed_L["Auto_Load"] = A_L_DG
---         writefile("Neverlose/Auto_Load_Dungeon.txt", HttpService:JSONEncode(Allowed_L))
---     end)
+ if game.PlaceId == 10515146389 then
+     local Load_Dungeon = TabSection1:Tab("Dungeon")
+     local Load_Dungeons = Autofarm:Section("Dungeons")
+     if not isfile("Neverlose/Auto_Load_Dungeon.txt") then
+         writefile("Neverlose/Auto_Load_Dungeon.txt",HttpService:JSONEncode({
+             ["Auto_Load"] = false,
+             ["Dungeon"] = nil,
+             ["Difficulty"] = nil,
+             ["Join"] = nil,
+             ["Normal"] = nil,
+         }))
+     end
+     local Auto_Load_DG = Load_Dungeons:Toggle("Auto Load Dungeon", function(t)
+         A_L_DG = t
+         local Allowed_L = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt'))
+         Allowed_L["Auto_Load"] = A_L_DG
+         writefile("Neverlose/Auto_Load_Dungeon.txt", HttpService:JSONEncode(Allowed_L))
+     end)
 
---     local Get_Load_2 = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt')).Auto_Load
---     if Get_Load_2 then
---         Auto_Load_DG:Set(true)
---     else
---         Auto_Load_DG:Set(false)
---     end
+     local Get_Load_2 = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt')).Auto_Load
+     if Get_Load_2 then
+         Auto_Load_DG:Set(true)
+     else
+         Auto_Load_DG:Set(false)
+     end
 
---     local OldNameCall = nil
---     OldNameCall = hookmetamethod(game, "__namecall", function(sel, ...)
---         local Args = {...}
---         if sel.Name == "CreateParty" and A_L_DG then
---             writefile("Neverlose/Auto_Load_Dungeon.txt", HttpService:JSONEncode({
---                 ["Auto_Load"] = A_L_DG,
---                 ["Dungeon"] = Args[1],
---                 ["Difficulty"] = Args[2],
---                 ["Join"] = Args[3],
---                 ["Normal"] = Args[4],
---             }))
---         end
---         return OldNameCall(sel, unpack(Args))
---     end)
---         local Players = game:GetService("Players")
---         local LocalPlayer = Players.LocalPlayer
---         local ReplicatedStorage = game:GetService("ReplicatedStorage")
---         local Get_Dungeon_Data = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt'))
+     local OldNameCall = nil
+     OldNameCall = hookmetamethod(game, "__namecall", function(sel, ...)
+         local Args = {...}
+         if sel.Name == "CreateParty" and A_L_DG then
+             writefile("Neverlose/Auto_Load_Dungeon.txt", HttpService:JSONEncode({
+                 ["Auto_Load"] = A_L_DG,
+                 ["Dungeon"] = Args[1],
+                 ["Difficulty"] = Args[2],
+                 ["Join"] = Args[3],
+                 ["Normal"] = Args[4],
+             }))
+         end
+         return OldNameCall(sel, unpack(Args))
+     end)
+         local Players = game:GetService("Players")
+         local LocalPlayer = Players.LocalPlayer
+         local ReplicatedStorage = game:GetService("ReplicatedStorage")
+         local Get_Dungeon_Data = HttpService:JSONDecode(readfile('Neverlose/Auto_Load_Dungeon.txt'))
     
 --         --[[
 --             Names: UnderwaterDungeon, JungleDungeon, ArcticBastionDungeon, BeginnersDungeon
@@ -163,20 +163,20 @@ end)
 --             hardcore: Normal
 --         ]]--
     
---         function createDungeon(name, difficulty, join, other) -- "All", "Private", "Friends"
---             local ohString1 = name
---             local ohString2 = difficulty
---             local ohString3 = join
---             local ohString4 = other or "Normal"
+        function createDungeon(name, difficulty, join, other) -- "All", "Private", "Friends"
+             local ohString1 = name
+             local ohString2 = difficulty
+             local ohString3 = join
+             local ohString4 = other or "Normal"
     
---             game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.CreateParty:InvokeServer(ohString1, ohString2, ohString3, ohString4)
---             local a = game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.GetPartyFromPlayer:InvokeServer(LocalPlayer).Data
+             game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.CreateParty:InvokeServer(ohString1, ohString2, ohString3, ohString4)
+            local a = game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.GetPartyFromPlayer:InvokeServer(LocalPlayer).Data
     
---             game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.StartParty:InvokeServer(a.UUID)
---         end
+            game:GetService("ReplicatedStorage").ReplicatedStorage.Packages.Knit.Services.PartyService.RF.StartParty:InvokeServer(a.UUID)
+         end
     
---         createDungeon(Get_Dungeon_Data.Dungeon, Get_Dungeon_Data.Difficulty, Get_Dungeon_Data.Join, Get_Dungeon_Data.Normal)
--- end
+         createDungeon(Get_Dungeon_Data.Dungeon, Get_Dungeon_Data.Difficulty, Get_Dungeon_Data.Join, Get_Dungeon_Data.Normal)
+ end
 
 local Get_Load = HttpService:JSONDecode(readfile('Neverlose/Auto_Load.txt')).AutoLoad
 
@@ -294,9 +294,9 @@ Autofarm_Extras:Toggle("Kill Aura", function(t)
      end
  end)
 
- Autofarm_Extras:Toggle("Hit Aura", function(t)
-     StartFarm = t
- end)
+--Autofarm_Extras:Toggle("Hit Aura", function(t)
+--     StartFarm = t
+-- end)
 
 Autofarm_Extras:Toggle("Hit Aura", function(t)
     Remote_Aura = t
