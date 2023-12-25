@@ -46,7 +46,7 @@ end
 local Neverlose_Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Neverlose-UI/main/Source.lua"))()
 local Win = Neverlose_Main:Window({
     Title = "by Фат",
-    CFG = "by Фат",
+    CFG = "Neverlose",
     Key = Enum.KeyCode.RightControl,
     External = {
         KeySystem = false,
