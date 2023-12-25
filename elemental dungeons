@@ -220,7 +220,7 @@ Autofarm_sec:Toggle("Defensive", function(t)
     end
 end)
 
-SASA = Autofarm_sec:Slider("Defensive Meter", 1, 5, 3, function(t)
+SASA = Autofarm_sec:Slider("Defensive Meter", 1, 50, 5, function(t)
     Def_Meter = t
 end)
 
@@ -627,7 +627,7 @@ function _12(v, ...)
     if Farming_TP then
         Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(...)
     else
-    -- Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(...)
+     Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(...)
     local Distance = GetDistance(v.HumanoidRootPart.Position)
     if Distance <= 8 then
         Speed = 600
@@ -689,7 +689,7 @@ end)
 local PosMon = Neverlose_Main.Client.Character.HumanoidRootPart.CFrame
 local Allowed = true
 task.spawn(function()
-    -- repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.Timers.CountdownLabel.TextColor3 == Color3.fromRGB(66, 255, 56)
+     repeat task.wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.Timers.CountdownLabel.TextColor3 == Color3.fromRGB(66, 255, 56)
     while task.wait() do
         if Tp_Farm then
             pcall(function()
@@ -705,11 +705,11 @@ task.spawn(function()
                             local Boss_Name = game:GetService("Players").LocalPlayer.PlayerGui.Main.BossHealthBars.HealthBar.BossName.Text
                             if game:GetService("Workspace").Mobs[Boss_Name].HumanoidRootPart:FindFirstChild("Immune") then
                                 _12(game:GetService("Workspace").Mobs[Boss_Name], 0, 20, 50)
-                                -- Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Mobs[Boss_Name].HumanoidRootPart.CFrame * CFrame.new(0, 20, 50)
+                                 Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Mobs[Boss_Name].HumanoidRootPart.CFrame * CFrame.new(0, 20, 50)
                                 Can_Shoot_Element = false
                             else
                                 _12(game:GetService("Workspace").Mobs[Boss_Name], 0, 0, 5)
-                                -- Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Mobs[Boss_Name].HumanoidRootPart.CFrame * CFrame.new(0, 8, 5)
+                                 Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Mobs[Boss_Name].HumanoidRootPart.CFrame * CFrame.new(0, 8, 5)
                                 Can_Shoot_Element = true
                             end
                             Can_Shoot_Element = true
@@ -743,28 +743,28 @@ task.spawn(function()
                                         else
                                             _12(v, 0, 0, 5)
                                         end
-                                    -- elseif Selected_Mode == "Walk" then
-                                    --     local is_done = false
-                                    --     repeat wait()
-                                    --         _11(v, is_done, 0, 0, 14)
-                                    --         is_done = false
-                                    --     until not Tp_Farm or v.Humanoid.Health <= 0
-                                    --     if (Neverlose_Main.Client.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude <= 100 then
-                                    --         _12(v, 0, 8, -2)
-                                    --         is_done = true
-                                    --     end
+                                     elseif Selected_Mode == "Walk" then
+                                         local is_done = false
+                                         repeat wait()
+                                             _11(v, is_done, 0, 0, 14)
+                                             is_done = false
+                                         until not Tp_Farm or v.Humanoid.Health <= 0
+                                         if (Neverlose_Main.Client.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude <= 100 then
+                                             _12(v, 0, 8, -2)
+                                             is_done = true
+                                         end
                                     Can_Shoot_Element = true
-                                    -- Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, 4.03, 0.9) * CFrame.Angles(math.rad(-90), 0, 0)
+                                     Neverlose_Main.Client.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, 4.03, 0.9) * CFrame.Angles(math.rad(-90), 0, 0)
                                 end
-                                    -- v.HitPart.Size = Vector3.new(5, 5, 5)
+                                     v.HitPart.Size = Vector3.new(5, 5, 5)
                             end
                         else
                             Can_Shoot_Element = false
                         end
-                        -- v.Humanoid.WalkSpeed = 0
-                        -- if v.Humanoid:FindFirstChild("Animator") then
-                        --     v.Humanoid.Animator:Destroy()
-                        -- end
+                         v.Humanoid.WalkSpeed = 0
+                         if v.Humanoid:FindFirstChild("Animator") then
+                             v.Humanoid.Animator:Destroy()
+                         end
                     end
                     end
                 end
