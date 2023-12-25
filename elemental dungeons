@@ -17,7 +17,7 @@ OldNameCall = hookmetamethod(game, "__newindex", function(A, B, ...)
     return OldNameCall(A, B, ...)
 end)
 
--- getgenv().Args_Test53 = true
+getgenv().Args_Test53 = true
 getgenv().Has_Been_Initiated = false
 getgenv().Attack_ID = nil
 function GetAttack_ID()
@@ -288,9 +288,36 @@ Autofarm_Extras:Toggle("Kill Aura", function(t)
      end
  end)
 
---Autofarm_Extras:Toggle("Hit Aura", function(t)
---     StartFarm = t
--- end)
+ Autofarm_Extras:Toggle("1 Aura", function(t)
+    Kill_Aura = t
+    if Kill_Aura then
+        anghry:visibility(true)
+    else
+        anghry:visibility(false)
+    end
+end)
+
+anghry = Autofarm_Extras:Slider("Kill Aura Range", 0, 100, 1, function(t)
+    Kill_Aura_Range = t
+end)
+
+spawn(function()
+    while task.wait() do
+        if Kill_Aura then
+            pcall(function()
+                for i,v in pairs(Neverlose_Main.Workspace.Mobs:GetChildren()) do
+                    if (Neverlose_Main.Client.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude <= 6 then
+                        v.Humanoid.Health = v.Humanoid.Health - Kill_Aura_Range
+                    end
+                end
+            end)
+        end
+    end
+end)
+
+Autofarm_Extras:Toggle("2 Aura", function(t)
+     StartFarm = t
+ end)
 
 Autofarm_Extras:Toggle("Hit Aura", function(t)
     Remote_Aura = t
