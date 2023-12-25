@@ -220,7 +220,7 @@ Autofarm_sec:Toggle("Defensive", function(t)
     end
 end)
 
-SASA = Autofarm_sec:Slider("Defensive Meter", 1, 50, 50, function(t)
+SASA = Autofarm_sec:Slider("Defensive Meter", 1, 10, 10, function(t)
     Def_Meter = t
 end)
 
