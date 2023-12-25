@@ -195,7 +195,7 @@ spawn(function()
     end
 end)
 
-local TP_Farming_TG = Autofarm_sec:Toggle("Tp Farming (Infinite Only)", function(t)
+local TP_Farming_TG = Autofarm_sec:Toggle("Enable", function(t)
     Tp_Farm = t
 end)
 
@@ -220,7 +220,7 @@ Autofarm_sec:Toggle("Defensive", function(t)
     end
 end)
 
-SASA = Autofarm_sec:Slider("Defensive Meter", 1, 10, 10, function(t)
+SASA = Autofarm_sec:Slider("Defensive Meter", 1, 20, 20, function(t)
     Def_Meter = t
 end)
 
