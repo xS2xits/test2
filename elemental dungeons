@@ -263,7 +263,7 @@ Autofarm_sec:Button("Leave Now", function()
     game:GetService("TeleportService"):Teleport(10515146389)
 end)
 
-Autofarm_Extras:Toggle("Bring Mobs [Testing]", function(t)
+Autofarm_Extras:Toggle("Bring Mobs", function(t)
     Bring_Mobs = t
 end)
 
