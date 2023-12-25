@@ -203,7 +203,7 @@ Autofarm_sec:Toggle("Farming TP", function(t)
     Farming_TP = t
 end)
 
-Autofarm_sec:Dropdown("Select Mode", {"Walk (soon)", "Teleport"}, function(t)
+Autofarm_sec:Dropdown("Select Mode", {"Walk", "Teleport"}, function(t)
     Selected_Mode = t
 end)
 
