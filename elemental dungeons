@@ -1,25 +1,71 @@
-while( true )
-do
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-local args = {[1] = {["Direction"] = Vector3.new(0.8011501431465149, -0.31480205059051514, 0.5089775323867798),["Origin"] = Vector3.new(-430.8229064941406, 86.85834503173828, -1768.3463134765625),["Position"] = Vector3.new(-367.88385009765625, 62.127220153808594, -1728.360595703125)},[2] = "HFA27LM88128"}game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("WeaponService"):WaitForChild("RF"):WaitForChild("UseSword"):InvokeServer(unpack(args))
-end
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("DailyRewardsService"):WaitForChild("RF"):WaitForChild("RedeemReward"):InvokeServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "XMAS"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "UPD4"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SORRYDELAYS3"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "100MVISITSTHANKS"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SORRY:("
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SORRYDELAYS2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "CALMDOWNTANGERINES"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SORRYDELAYS:("
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SubToToadBoiGaming"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "BETA"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "RefundSP"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+local args = {
+    [1] = "SEASONONE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("RedeemCode"):InvokeServer(unpack(args))
+
+wait()
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("SummoningService"):WaitForChild("RF"):WaitForChild("SummonThree"):InvokeServer()
