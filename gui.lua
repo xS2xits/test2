@@ -40,17 +40,17 @@ do
     Options.MyToggle:SetValue(false)
 
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Bring Mobs", Default = false })
+    local Toggle1 = Tabs.Main:AddToggle("MyToggle", {Title = "Bring Mobs", Default = false })
 
-    Toggle:OnChanged(function()
+    Toggle1:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
     Options.MyToggle:SetValue(false)
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Kill Aura", Default = false })
+    local Toggle2 = Tabs.Main:AddToggle("MyToggle", {Title = "Kill Aura", Default = false })
 
-    Toggle:OnChanged(function()
+    Toggle2:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
