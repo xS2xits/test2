@@ -64,7 +64,7 @@ do
 
 
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Farm", Default = false })
 
     Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
@@ -72,7 +72,15 @@ do
 
     Options.MyToggle:SetValue(false)
 
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Bring Mobs", Default = false })
+
+    Toggle:OnChanged(function()
+        print("Toggle changed:", Options.MyToggle.Value)
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Kill Aura", Default = false })
 
     Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
