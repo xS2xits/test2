@@ -37,24 +37,24 @@ do
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
-    Options.MyToggle:SetValue(false)
+    Options.MyToggle1:SetValue(false)
 
 
-    local Toggle1 = Tabs.Main:AddToggle("MyToggle", {Title = "Bring Mobs", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle2", {Title = "Bring Mobs", Default = false })
 
-    Toggle1:OnChanged(function()
-        print("Toggle changed:", Options.MyToggle.Value)
+    Toggle:OnChanged(function()
+        print("Toggle changed:", Options.MyToggle2.Value)
     end)
 
-    Options.MyToggle:SetValue(false)
+    Options.MyToggle2:SetValue(false)
 
-    local Toggle2 = Tabs.Main:AddToggle("MyToggle", {Title = "Kill Aura", Default = false })
+    local Toggle = Tabs.Main:AddToggle("MyToggle3", {Title = "Kill Aura", Default = false })
 
-    Toggle2:OnChanged(function()
-        print("Toggle changed:", Options.MyToggle.Value)
+    Toggle:OnChanged(function()
+        print("Toggle changed:", Options.MyToggle3.Value)
     end)
 
-    Options.MyToggle:SetValue(false)
+    Options.MyToggle3:SetValue(false)
 
     
 -- Addons:
