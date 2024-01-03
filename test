@@ -1,3 +1,12 @@
+getgenv().Config = {
+    Headless = true,
+
+    FakeDisplayName = "GayBanMePle",
+    FakeName = "GayBanMePle",
+    FakeId = 1, -- input id
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/NameHider/main/MainScript.lua"))()
+wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/xpa1n/Scripts/main/ElementalDungeons.lua'))();
 wait(1)
 game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("EventService"):WaitForChild("RF"):WaitForChild("ClaimReward"):InvokeServer()
